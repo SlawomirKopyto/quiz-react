@@ -1,0 +1,71 @@
+{
+    "info": [
+        {
+            "logo": "Witamy w Quizie",
+            "rules": ["Każde pytanie ma cztery odpowiedzi z jedną poprawną", "Po wybraniu odpowiedzi nie można jej cofnąć", "Po 5 minutach nieaktywności powrót do ekranu głównego"],
+            "luck": "Powodzenia"
+        }
+    ],
+    "data": [
+        {
+            "question": "Co jest stolicą Polski?",
+            "options": [ "Warszawa", "Kraków","Gdańsk","Gniezno" ],
+            "answer": "Warszawa",
+            "explain": "Warszawa jest stolicą Polski od 1592"
+        },
+        {
+            "question": "Najdłuższa rzeka w Polsce to?",
+            "options": [ "Warta", "Odra","Wisła","San" ],
+            "answer": "Wisła",
+            "explain": "Wisła to najdłuższa rzeka w Polsce i ma 1047 km"
+        },
+        {
+            "question": "Co nie jest frameworkiem?",
+            "options": ["Angular","Phyton","React", "Vue"],
+            "answer": "Phyton",
+            "explain": "Phyton jest językiem programowania"
+        },
+        {
+            "question": "Mistrzem świata w piłce nożnej w 2018 roku była?",
+            "options": ["Chorwacja", "Hiszpania", "Francja","Włochy" ],
+            "answer": "Francja",
+            "explain": "Francja pokonała w finale Chorwację 4:2"
+        },
+        {
+            "question": "Kiedy powstał pierwszy komputer?",
+            "options": ["1950","1946","1943","1945"],
+            "answer": "1945",
+            "explain": "Pierwszy komputer (ENIAC) powstał w 1945r"
+        },
+        {
+            "question": "Mistrzem Europy w piłce nożnej w 2016 roku była?",
+            "options": ["Chorwacja","Portugalia","Francja","Walia"],
+            "answer": "Portugalia",
+            "explain": "Portugalia pokonała Francję w finale 1:0"
+        },
+        {
+            "question": "Przez ile kontynentów przebiega równik?",
+            "options": [ "2","3","4","1"],
+            "answer": "3",
+            "explain": "Równik przebiega przez Amerykę Pln, Austarlię i Afrykę"
+        },
+        {
+            "question": "Wynalazcą dynamitu był?",
+            "options": ["Alfred Nobel", "Dmitrij Mendelejew","James Watt","Cai Lun"],
+            "answer": "Alfred Nobel",
+            "explain": "Alfred Nobel wynalazł dynamit w 1867 roku"
+        },
+        {
+            "question": "Kto był pierwszym królem Polski?",
+            "options": ["Mieszko I","Bolesław Chrobry","Kaziemierz Wielki","Mieszko II"],
+            "answer": "Bolesław Chrobry",
+            "explain": "Bolesław Chrobry został królem Polski w 1025roku"
+        },
+        {
+            "question": "W którym roku powstał JavaScript?",
+            "options": ["1989","1994","1996","1995"],
+            "answer": "1995",
+            "explain": "JavaScript został opracowany w 1995 roku "
+        }
+    ]
+}

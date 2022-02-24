@@ -1,0 +1,55 @@
+.image {
+    color: #363636;
+    background-image: url(/src/Components/Images/quiz.jpg);
+    height: 150px;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.button-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.select {
+    background-color: rgb(7, 207, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+}
+
+.wrong {
+    background-color: rgb(233, 0, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleOption {
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px;
+    box-shadow: 0 0 2px black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+.text-danger {
+    color: red;
+    margin-top: 20px;
+}

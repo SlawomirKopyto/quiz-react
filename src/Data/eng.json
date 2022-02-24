@@ -1,0 +1,64 @@
+{
+    "question": [
+        {
+            "questionText": "What is the capital of Poland?",
+            "options": [  "Warsaw", "Cracow", "Gdańsk","Gniezno"],
+            "answer": "Warsaw",
+            "explain": "Warsaw is the capital of Poland since od 1592"
+        },
+        {
+            "questionText": "The longest river in Poland is?",
+            "options": [ "Warta","Odra","Vistula", "San" ],
+            "answer": "Vistula",
+            "explain": "the Vistula is the longest river in Poland and it has 1047 km"
+        },
+        {
+            "questionText": "What is not framework?",
+            "options": ["Angular","Phyton","React", "Vue"],
+            "answer": "Phyton",
+            "explain": "Phyton is a programming language"
+        },
+        {
+            "questionText": "The 2018 world football champion this?",
+            "options": [ "Croatia","Spain","France", "Itally"],
+            "answer": "France",
+            "explain": "France won Croatia in the final 4:2"
+        },
+        {
+            "questionText": "When was made the first computer?",
+            "options": [ "1950","1946","1943","1945"],
+            "answer": "1945",
+            "explain": "First computer (ENIAC) made in 1945r"
+        },
+        {
+            "questionText": "The 2016 europe football champion this?",
+            "options": ["Croatia","Portugal","France","Wales"],
+            "answer": "Portugal",
+            "explain": "Portugal won France in the final 1:0"
+        },
+        {
+            "questionText": "How many continents does the equator run through?",
+            "options": ["2","3","4","1"],
+            "answer": "3",
+            "explain": "The equator runs through North America, Australia and Africa"
+        },
+        {
+            "questionText": "He was the inventor of dynamite?",
+            "options": ["Alfred Nobel","Dmitrij Mendelejew","James Watt","Cai Lun"],
+            "answer": "Alfred Nobel",
+            "explain": "Alfred Nobel was the inventor of dynamite in 1867"
+        },
+        {
+            "questionText": "Who was the first king of Poland?",
+            "options": [ "Mieszko I","Bolesław Chrobry","Kaziemierz Wielki","Mieszko II"],
+            "answer": "Bolesław Chrobry",
+            "explain": "Bolesław Chrobry was first king of Poland in 1025"
+        },
+        {
+            "questionText": "In what year was JavaScript created?",
+            "options": ["1989","1994","1996","1995"],
+            "answer": "1995",
+            "explain": "JavaScript was created in 1995"
+        }
+    ]
+}
