@@ -6,6 +6,7 @@ const Question = ({ data, onAnswerUpdate, numberOffQuestion, activeQuestion, onS
   const [error, setError] = useState('');
   const radioWrapper = useRef();
 
+
   const handleSelect = (option) => {
     if (selected === option && selected === data.answer) return "select";
     else if (selected === option && selected !== data.answer) return "wrong";

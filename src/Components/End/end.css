@@ -1,0 +1,18 @@
+h3 {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.button-repeat {
+    background-color: #48c78e; 
+    margin-left: 20px;
+}
+
+.card-end {
+    padding: 35px 0;
+}
