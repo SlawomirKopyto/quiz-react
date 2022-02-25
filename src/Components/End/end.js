@@ -21,7 +21,7 @@ return (
           <h3>Twój wynik</h3>
           <p>{correctAnswers} z {data.length}</p>
           <p><strong>{Math.floor((correctAnswers / data.length) * 100)}%</strong></p>
-          <button className="button" >Sprawdź swoje odpowiedzi</button>
+          <button className="button" onClick={onAnswersCheck}>Sprawdź swoje odpowiedzi</button>
           <button className="button button-repeat" onClick={onReset}>Spróbuj ponownie</button>
         </div>
       </div>
