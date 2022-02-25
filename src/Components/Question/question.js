@@ -39,10 +39,9 @@ const Question = ({ data, onAnswerUpdate, numberOffQuestion, activeQuestion, onS
               <h2 className="">{data.question}</h2>
               <div className="control" ref={radioWrapper}>
                 {data.options.map((option, i) => (
-                  <label  className={`singleOption  ${selected && handleSelect(option)}`} key={i}>
-                    <input type="radio" name="answer" value={option} onChange={changeHandler} disabled={selected}  />
+                  <button name="answer" className={`singleOption  ${selected && handleSelect(option)}`} key={i} value={option} onClick={changeHandler} disabled={selected}>
                     {option}
-                  </label>
+                  </button>
                 ))}
               </div>
               {error && <div className="text-danger">{error}</div>}
