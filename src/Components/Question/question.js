@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import './question.css'
+import Timer from "../Timer/timer";
 
 const Question = ({ data, onAnswerUpdate, numberOffQuestion, activeQuestion, onSetActiveQuestion, onSetStep, onReset }) => {
   const [selected, setSelected] = useState();
@@ -35,6 +36,10 @@ const Question = ({ data, onAnswerUpdate, numberOffQuestion, activeQuestion, onS
   return (
     <div className="card">
       <div className="image"></div>
+      <div className="card-info">
+        <div className="question-remain">Pytanie {activeQuestion + 1} </div>
+        <div className="timer"><Timer activeQuestion={activeQuestion} selected={selected} /></div>
+      </div>
       <div className="card-content">
         <div className="content">
           <h2 className="">{data.question}</h2>

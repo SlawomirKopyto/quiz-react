@@ -9,7 +9,7 @@ const Start = ({ onQuizStart }) => {
             <ol className='card-description'>
               <li>Każde pytanie ma cztery odpowiedzi z jedną poprawną</li>
               <li>Po wybraniu odpowiedzi nie można jej cofnąć</li>
-              <li>Po 5 minutach nieaktywności powrót do ekranu głównego</li>
+              <li>Po 2 minutach nieaktywności powrót do ekranu głównego</li>
             </ol>
             <p>Powodzenia</p>
             <button className="button" onClick={onQuizStart}>Start</button>
