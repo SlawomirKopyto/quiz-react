@@ -1,7 +1,7 @@
 .image {
     color: #363636;
     background-image: url(/src/Components/Images/quiz.jpg);
-    height: 150px;
+    height: 130px;
     background-position: center;
     border-radius: 8px 8px 0 0;
 }

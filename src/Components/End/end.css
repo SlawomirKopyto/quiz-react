@@ -16,3 +16,10 @@ p {
 .card-end {
     padding: 35px 0;
 }
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
