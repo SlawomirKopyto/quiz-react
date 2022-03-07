@@ -11,7 +11,7 @@ const Start = ({ onQuizStart }) => {
               <li>Po wybraniu odpowiedzi nie można jej cofnąć</li>
               <li>Po 2 minutach nieaktywności powrót do ekranu głównego</li>
             </ol>
-            <p>Powodzenia</p>
+            <p>Powodzenia !!!</p>
             <button className="button" onClick={onQuizStart}>Start</button>
           </div>
         </div>

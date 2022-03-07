@@ -15,21 +15,18 @@ const End = ({ results, data, onReset, onAnswersCheck }) => {
     setCorrectAnswers(correct);
   }, []);
 
-  let aa = {
-    ddd: ((correctAnswers / data.length) * 100)
-  }
+  let percent = ((correctAnswers / data.length) * 100);
 
-  function xxx(aa) {
-    if (aa.ddd < 55)
+  const text = () => {
+    if (percent < 55)
       return 'Niestety poszło Ci bardzo słabo';
     else
-      if (aa.ddd > 80)
+      if (percent > 80)
         return 'Świetnie, jesteś bardzo dobry';
       else {
         return 'Nie jest źle ale może być lepiej';
       }
   };
-  xxx(aa);
 
   return (
     <div className="card">
@@ -38,7 +35,7 @@ const End = ({ results, data, onReset, onAnswersCheck }) => {
           <h3>Twój wynik</h3>
           <p>{correctAnswers} z {data.length}</p>
           <p><strong>{Math.floor((correctAnswers / data.length) * 100)}%</strong></p>
-          <p><strong>{xxx(aa)}</strong></p>
+          <p><strong>{text(percent)}</strong></p>
           <div className="card-button">
             <button className="button" onClick={onAnswersCheck}>Sprawdź swoje odpowiedzi</button>
             <button className="button button-repeat" onClick={onReset}>Spróbuj ponownie</button>
